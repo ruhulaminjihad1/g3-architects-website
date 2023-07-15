@@ -1,8 +1,73 @@
-@import
-url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Open+Sans:ital,wght@1,800&family=Poppins:ital,wght@0,400;0,500;1,400&family=Work+Sans:wght@400;500;600;700;800&display=swap');
-*{
-font-family: 'Lato', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Work Sans', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Open+Sans:ital,wght@1,800&family=Poppins:ital,wght@0,400;0,500;1,400&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--dark-01, #131313);
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgba(66, 66, 66, 1);
+}
+
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--dark-01, #131313);
+}
+
+.banner-description {
+    color: var(--dark-03, #727272);
+}
+
+.btn-primary {
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+    background: #FF900E;
+    width: 180px;
+    height: 64px;
+    flex-shrink: 0;
 }
